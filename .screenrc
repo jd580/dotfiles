@@ -1,0 +1,20 @@
+# Disable startup message
+startup_message off
+
+# Set a default scrollback value
+defscrollback 99999
+
+# Specify a log file
+logfile $HOME/.screenlogs/%0C%A_%Y-%m-%d_%n_%S.screen.log
+
+# Enable logging on all windows
+deflog on
+
+# Use 256 pretty colors
+term xterm-256color
+
+# Caption to be used on windows 
+caption string "%?%F%{= Bk}%? %C%A %D %d-%m-%Y %{= kB} %t%= %?%F%{= Bk}%:%{= wk}%? %n "
+
+# Enables normal mouse scrolling in screen sessions
+termcapinfo xterm* ti@:te@ dw
