@@ -8,9 +8,12 @@
 # -undo / -remove functionality
 # -Force option -- just yolo replace 
 
+# Needed directory for screen log files to be written.
+mkdir -p ~/.screenlogs
 
 # Select dotfiles and conf directories
 DOTFILES=$(ls -la | egrep -v '\.$|\.git$|README.md$|install.sh$|^total' | awk '{print $NF}')
+
 
 # Loop over them and copy them to the current user's home path
 for DOTFILE in $DOTFILES; do
