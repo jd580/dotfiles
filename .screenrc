@@ -7,9 +7,6 @@ defscrollback 99999
 # Specify a log file
 logfile $HOME/.screenlogs/%0C%A_%Y-%m-%d_%n_%S.screen.log
 
-# Enable logging on all windows
-deflog on
-
 # Use 256 pretty colors
 term xterm-256color
 
