@@ -4,6 +4,9 @@ startup_message off
 # Set a default scrollback value
 defscrollback 99999
 
+# Turn on logging
+deflog on
+
 # Specify a log file
 logfile $HOME/.screenlogs/%0C%A_%Y-%m-%d_%n_%S.screen.log
 
