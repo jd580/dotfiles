@@ -7,7 +7,7 @@ defscrollback 99999
 # Turn on logging
 deflog on
 
-# Specify a log file
+# Specify a log file (note that ~/.screenlogs directory must be manually created)
 logfile $HOME/.screenlogs/%0C%A_%Y-%m-%d_%n_%S.screen.log
 
 # Use 256 pretty colors
