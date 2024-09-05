@@ -1,9 +1,7 @@
-" A few configurations to help make things run smoother.
-
-" Disable compatibility with vi which can cause unexpected issues.
+" Disable compatibility with vi.
 set nocompatible
 
-" Enable type file detection. Vim will be able to try to detect the type of file in use.
+" Enable type file detection.
 filetype on
 
 " Enable plugins and load plugin for the detected file type.
